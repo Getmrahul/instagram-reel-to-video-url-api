@@ -1,4 +1,6 @@
-# Instagram Reel Video URL Resolver
+# Instagram Reel Video URL API
+
+![Preview](./preview.png)
 
 Small Node.js API that takes a public Instagram Reel URL and returns a direct video URL.
 
