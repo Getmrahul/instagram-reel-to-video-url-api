@@ -49,15 +49,15 @@ curl http://localhost:3000/health
 ### Resolve a Reel
 
 ```bash
-curl 'http://localhost:3000/resolve?url=https://www.instagram.com/reel/DT4_VYoEj95/'
+curl 'http://localhost:3000/resolve?url=https://www.instagram.com/reel/DTVTvUDj-b1/?igsh=MXc1enZtYmsyemprcA=='
 ```
 
 Successful response:
 
 ```json
 {
-  "inputUrl": "https://www.instagram.com/reel/DT4_VYoEj95/",
-  "normalizedUrl": "https://www.instagram.com/reel/DT4_VYoEj95/?l=1",
+  "inputUrl": "https://www.instagram.com/reel/DTVTvUDj-b1/?igsh=MXc1enZtYmsyemprcA==",
+  "normalizedUrl": "https://www.instagram.com/reel/DTVTvUDj-b1/?l=1",
   "videoUrl": "https://scontent-....mp4",
   "method": "dom"
 }
